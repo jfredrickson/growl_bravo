@@ -1,0 +1,39 @@
+html>body.navbar-is-fixed-top {
+  padding-top: 110px !important; /* Padding top is logo + navbar height */
+}
+
+html>body.toolbar.navbar-is-fixed-top {
+  padding-top: 140px !important; /* Drupal admin toolbar */
+}
+
+html>body.toolbar-drawer.navbar-is-fixed-top {
+  padding-top: 174px !important; /* Drupal admin toolbar + drawer */
+}
+
+#navbar .navbar-header {
+  float: none;
+  display: block;
+}
+
+#navbar .navbar-collapse {
+  padding: 0;
+  display: block;
+}
+
+#navbar .navbar-nav > li > a {
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+#navbar .navbar-nav.secondary {
+  float: right;
+}
+
+#navbar .navbar-nav.secondary > li > a {
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+#stage h1 {
+  font-size: 4em;
+}
