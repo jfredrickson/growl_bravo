@@ -20,10 +20,14 @@ body.toolbar-drawer.navbar-is-fixed-top {
   padding-top: 144px !important; /* Drupal admin toolbar + drawer */
 }
 
-h1.page-header {
+h1 {
   font-family: 'Signika', sans-serif;
   font-size: 3em;
   color: #0092ce;
+}
+
+body.front h1.page-header {
+  display: none;
 }
 
 h2 {
@@ -79,16 +83,39 @@ button.navbar-toggle {
   margin-top: 20px;
 }
 
-.footer.container {
+#hero {
+  position: relative;
+  background-image: url('../images/deafindia_elysepatten_flickr.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .container {
+  min-height: 500px;
+  position: relative;
+}
+
+#hero h1 {
+  font-size: 3em;
+  color: white;
+  text-shadow: 4px 4px 8px black, -4px -4px 8px black, 4px -4px 8px black, -4px 4px 8px black;
+}
+
+#hero .photocredit {
+  color: white;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 100px;
-  background-color: #f5f5f5;
+  right: 10px;
+}
+
+#hero .photocredit a {
+  color: white;
+  text-decoration: underline;
 }
 
 .footer .block {
   margin: 10px 0;
   text-align: center;
+  font-size: 0.9em;
   color: gray;
 }

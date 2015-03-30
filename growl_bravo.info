@@ -18,6 +18,9 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+regions[column_one]     = 'Column one'
+regions[column_two]     = 'Column two'
+regions[column_three]   = 'Column three'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -35,3 +38,23 @@ stylesheets[all and (min-width: 1200px)][] = 'css/wide.css'
 ;;;;;;;;;;;;;;;;;;;;;
 
 scripts[] = 'js/growl_bravo.fonts.js'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Layouts
+;;;;;;;;;;;;;;;;;;;;;
+
+layouts[default][name] = 'Default'
+layouts[default][description] = 'Simple one-column page'
+layouts[default][template] = 'page'
+
+layouts[landing][name] = 'Landing'
+layouts[landing][description] = 'Landing page with hero area and three columns'
+layouts[landing][template] = 'templates/layout-landing'
+layouts[landing][regions][] = 'column_one'
+layouts[landing][regions][] = 'column_two'
+layouts[landing][regions][] = 'column_three'
+
+layouts[sidebar][name] = 'Sidebar'
+layouts[sidebar][description] = 'Left-hand content and right-hand sidebar'
+layouts[sidebar][template] = 'templates/layout-sidebar'

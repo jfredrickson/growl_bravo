@@ -34,6 +34,7 @@ html>body.toolbar-drawer.navbar-is-fixed-top {
   padding: 5px 10px;
 }
 
-#stage h1 {
+#hero h1 {
   font-size: 4em;
+  width: 60%;
 }
