@@ -50,28 +50,47 @@
     </section>
   </div>
 
-  <div class="row">
-    <?php if (!empty($page['column_one'])): ?>
-      <aside class="col-md-4" role="complementary">
-        <?php print render($page['column_one']); ?>
-      </aside>  <!-- /#column_one -->
-    <?php endif; ?>
-    <?php if (!empty($page['column_two'])): ?>
-      <aside class="col-md-4" role="complementary">
-        <?php print render($page['column_two']); ?>
-      </aside>  <!-- /#column_two -->
-    <?php endif; ?>
-    <?php if (!empty($page['column_three'])): ?>
-      <aside class="col-md-4" role="complementary">
-        <?php print render($page['column_three']); ?>
-      </aside>  <!-- /#column_three -->
-    <?php endif; ?>
+  <div class="front-page-features">
+    <div class="row">
+      <?php if (!empty($page['column_one'])): ?>
+        <aside class="col-md-4" role="complementary">
+          <?php print render($page['column_one']); ?>
+        </aside>  <!-- /#column_one -->
+      <?php endif; ?>
+      <?php if (!empty($page['column_two'])): ?>
+        <aside class="col-md-4" role="complementary">
+          <?php print render($page['column_two']); ?>
+        </aside>  <!-- /#column_two -->
+      <?php endif; ?>
+      <?php if (!empty($page['column_three'])): ?>
+        <aside class="col-md-4" role="complementary">
+          <?php print render($page['column_three']); ?>
+        </aside>  <!-- /#column_three -->
+      <?php endif; ?>
+    </div>
   </div>
 
   <div class="row">
     <?php print render($page['content']); ?>
   </div>
 
+</div>
+
+<div class="front-page-quotes">
+  <div class="container">
+    <div class="row">
+      <?php if (!empty($page['quote_one'])): ?>
+        <div class="col-md-6">
+          <?php print render($page['quote_one']); ?>
+        </div>
+      <?php endif; ?>
+      <?php if (!empty($page['quote_two'])): ?>
+        <div class="col-md-6">
+          <?php print render($page['quote_two']); ?>
+        </div>
+      <?php endif; ?>
+    </div>
+  </div>
 </div>
 
 <?php include('footer.inc'); ?>

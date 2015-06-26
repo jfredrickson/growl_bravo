@@ -21,6 +21,8 @@ regions[page_bottom]    = 'Page bottom'
 regions[column_one]     = 'Column one'
 regions[column_two]     = 'Column two'
 regions[column_three]   = 'Column three'
+regions[quote_one]      = 'Quote one'
+regions[quote_two]      = 'Quote two'
 
 
 ;;;;;;;;;;;;;;;;;;;;;

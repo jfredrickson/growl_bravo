@@ -113,6 +113,41 @@ button.navbar-toggle {
   text-decoration: underline;
 }
 
+.front-page-features {
+  padding: 3em 0;
+}
+
+.front-page-quotes {
+  padding: 3em 0;
+  background-color: #0092ce;
+}
+
+.front-page-quotes blockquote {
+  padding: 0;
+  font-size: 1.4em;
+  font-family: serif;
+  font-style: italic;
+  color: white;
+  border: none;
+}
+
+.front-page-quotes blockquote p {
+  font-size: 1.4em;
+}
+
+.front-page-quotes p {
+  color: white;
+}
+
+.region-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.footer {
+  margin-top: 0;
+}
+
 .footer .block {
   margin: 10px 0;
   text-align: center;
