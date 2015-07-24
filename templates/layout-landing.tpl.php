@@ -1,5 +1,5 @@
 <?php include('header.inc'); ?>
-
+  
 <header role="banner" id="hero">
   <div class="container">
     <div class="intro">

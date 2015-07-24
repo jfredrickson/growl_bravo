@@ -53,6 +53,14 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
+    <?php if (!empty($page['after_content'])): ?>
+      <div class="row">
+        <div class="col-sm-12">
+          <?php print render($page['after_content']); ?>
+        </div>
+      </div>
+    <?php endif; ?>
+
   </div>
 </div>
 

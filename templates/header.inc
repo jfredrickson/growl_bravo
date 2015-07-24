@@ -37,3 +37,5 @@
     <?php endif; ?>
   </div>
 </header>
+
+<div id="page-wrapper">

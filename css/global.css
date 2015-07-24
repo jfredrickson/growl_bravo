@@ -2,22 +2,22 @@ html, body {
   height: 100%;
 }
 
-html {
+#page-wrapper {
   position: relative;
   min-height: 100%;
 }
 
 body.navbar-is-fixed-top {
-  padding-top: 80px !important; /* Padding top is navbar height */
-  padding-bottom: 100px; /* Padding bottom is footer height */
+  padding-top: 80px !important; /* Navbar height */
+  padding-bottom: 100px; /* Footer height */
 }
 
 body.toolbar.navbar-is-fixed-top {
-  padding-top: 110px !important; /* Drupal admin toolbar */
+  padding-top: 110px !important; /* Navbar height + Drupal admin toolbar */
 }
 
 body.toolbar-drawer.navbar-is-fixed-top {
-  padding-top: 144px !important; /* Drupal admin toolbar + drawer */
+  padding-top: 144px !important; /* Navbar height + Drupal admin toolbar + drawer */
 }
 
 h1 {
@@ -33,6 +33,19 @@ body.front h1.page-header {
 h2 {
   font-family: 'Signika', sans-serif;
   font-size: 2.5em;
+}
+
+h3 {
+  font-family: 'Signika', sans-serif;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.2em;
 }
 
 .navbar {
@@ -146,11 +159,57 @@ button.navbar-toggle {
 
 .footer {
   margin-top: 0;
+  background-color: #f5f5f5;
 }
 
+.footer .contact,
 .footer .block {
   margin: 10px 0;
   text-align: center;
   font-size: 0.9em;
   color: gray;
+}
+
+.social-media-icon {
+  height: 20px;
+}
+
+.view-staff img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.view-staff h4 {
+  margin-top: 20px;
+}
+
+.press-release-date {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.press-release-body {
+  margin-top: 1em;
+}
+
+.press-release-image img {
+  margin-top: 1em;
+  width: 100%;
+  height: auto;
+}
+
+.photo-caption {
+  margin-top: 0.5em;
+  color: #777;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.region-after-content {
+  margin: 20px 0;
+}
+
+.stMainServices, .stButton, .stHBubble {
+  height: 22px !important;
 }
