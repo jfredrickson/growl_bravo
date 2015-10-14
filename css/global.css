@@ -88,6 +88,11 @@ button.navbar-toggle {
   margin-top: 20px;
 }
 
+#navbar .navbar-nav > li.menu-item-donate-to-gro > a {
+  color: white;
+  background-color: #fdbc60;
+}
+
 .logo img {
   height: 60px;
 }
