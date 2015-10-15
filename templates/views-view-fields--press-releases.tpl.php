@@ -34,11 +34,11 @@
     <div class="press-release-body"><?php print $fields['body']->content; ?></div>
   </div>
   <div class="col-md-4">
-    <div class="press-release-image">
-      <?php print $fields['field_image']->content; ?>
-      <div class="photo-caption">
-        <?php print $row->field_field_image[0]['rendered']['#item']['title']; ?>
+    <?php foreach ($view->result[0]->field_field_image as $image): ?>
+      <div class="press-release-image">
+        <?php print render($image['rendered']); ?>
+        <div class="photo-caption"><?php print $image['rendered']['#item']['title']; ?></div>
       </div>
-    </div>
+    <?php endforeach; ?>
   </div>
 </div>
