@@ -131,13 +131,16 @@ button.navbar-toggle {
   text-decoration: underline;
 }
 
-.front-page-features {
-  padding: 3em 0;
+.front-page-features .block:first-child h2.block-title {
+  margin-top: 1em;
 }
 
 .front-page-quotes {
-  padding: 3em 0;
   background-color: #0092ce;
+}
+
+.front-page-quotes .block {
+  margin: 3em 0;
 }
 
 .front-page-quotes blockquote {
